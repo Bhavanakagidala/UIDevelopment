@@ -1,0 +1,10 @@
+p{
+    border: 15px solid green; 
+    padding: 5px;
+}
+
+div{
+border: 10px dotted blue; 
+padding: 2px;
+margin: 5px;
+}
