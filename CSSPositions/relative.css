@@ -1,0 +1,34 @@
+
+div:nth-child(1){
+    background-color: aqua;
+    border: 5px double aqua;
+    padding: 10px;
+    margin: 5px;
+}
+
+div:nth-child(2){
+    background-color: blue;
+    border: 5px double blue;
+    padding: 10px;
+    margin: 5px;
+}
+div:nth-child(3){
+    background-color: green;
+    border: 5px double green;
+    padding: 10px;
+    margin: 5px;
+   /* this will not convert block level elements into inline element*/
+   /* by default position: relative dosnt listins to the browswers view point */
+   /* the view point starts from the same point */
+   /* we can not take left and right at atime unlike adsolute */
+    position: relative;
+    top: 0px;
+    right: 200px;
+   
+}
+div:nth-child(4){
+    background-color: pink;
+    border: 5px double pink;
+    padding: 10px;
+    margin: 5px;
+}
